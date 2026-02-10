@@ -51,3 +51,7 @@ package.json
 /man/
 /share/
 /src/
+
+# odoo background log
+odoo.log
+odoo.pid
