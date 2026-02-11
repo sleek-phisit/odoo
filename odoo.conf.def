@@ -1,0 +1,15 @@
+[options]
+; Database connection settings
+db_host = 
+db_port = 5432
+db_user = 
+db_password = 
+db_name = odoo
+
+; Manager password for database operations (e.g., create, backup, restore)
+; admin_passwd = $pbkdf2-sha512$600000$RAihNAagtPY.ByAEQEgppQ$DK8ngbkwKJkbpSjBPDbUF1puetx0xyJmHlXOUg9aSLhkVg2ehi8rEqI0FIUonlXKxhfMDxAFkibVCWY1Eciw2g
+admin_passwd = lkmnBio27
+
+; Addons paths
+addons_path = /home/ec2-user/workspaces/odoo/addons, /home/ec2-user/workspaces/odoo/odoo/addons
+logfile = /home/ec2-user/workspaces/odoo/odoo.log
